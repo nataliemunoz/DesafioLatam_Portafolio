@@ -1,0 +1,13 @@
+.imgMHab{
+    width: 3vw;
+}
+
+.imgProyectos{
+    width: 100%;
+}
+@media only screen and (min-width: 250px) and (max-width: 760px){
+    .imgMHab{
+        width: 6vw;
+        padding-bottom: 10px;
+    } 
+}

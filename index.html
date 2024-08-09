@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css Propio -->
+     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mi primer Portafolio</title>
+</head>
+<body>
+            <nav class="menu navbar sticky-top navbar-expand-lg navbar-light bg-white bg-gradient">
+                <div class="container-fluid">
+                  <a class="navbar-brand titleNav" href="#">Peter Parker</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#principal">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#MHabilidades">Mis Habilidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+   
+    <main>
+      <section class="principal" id="principal">
+        <div class="container text-center mt-5">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12">
+                <img class="img-fluid" src="assets/img/developer.svg">
+              </div>
+              <div class="col-md-6 col-sm-12 alineacionContenidoDerecho">
+                <h1 class="Titulo1Principal"> Soy Peter Parker </h1>
+                <h2 class="Titulo2Principal"> Desarrollador Frontend </h2>
+                <p class="parrafoPrincipal"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum consequuntur explicabo provident sapiente possimus laborum ex quibusdam. Itaque mollitia dolor, libero numquam eaque ratione animi quos dolorem. Iusto, numquam?</p>
+                <button class="botonPrincipal"> Contactame </button>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <section class="MHabilidades" id="MHabilidades">
+        <div class="container align-items-start mt-5">
+            <h1 class="titleMhab text-center">Mis Habilidades</h1>
+            <div class="row mt-5 d-flex justify-content-evenly">
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/html.png" alt="">
+                <span>HTML</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/css.png" alt="">
+                <span>CSS</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/sass1.svg" alt="">
+                <span>Sass</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab"  src="assets/img/logos/bootstrap-logo.svg" alt="">
+                <span>Bootstrap</span>  
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/logo@2x.png" alt="">
+                <span>Git</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/github.svg" alt="">
+                <span>GitHub</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/js.png" alt="">
+                <span>JavaScript</span>
+              </div>
+              <div class="col-md-1 col-sm-6 px-5">
+                <img class="imgMHab" src="assets/img/logos/vue.png" alt="">
+                <span>Vue</span>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="Proyectos" id="Proyectos">
+        <div class="container text-center">
+            <h1>Mis Proyectos</h1>
+            <div class="row mt-5">
+              <div class="col-md-3 col-sm-6 ">
+                <img class="imgProyectos" src="assets/img/meetcoffee.png" alt="">
+                <h6 class="text-start">Meet Coffee</h6>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <img class="imgProyectos" src="assets/img/meetcoffee.png" alt="">
+                <h6 class="text-start">Meet Coffee</h6>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <img class="imgProyectos" src="assets/img/meetcoffee.png" alt="">
+                <h6 class="text-start">Meet Coffee</h6>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <img class="imgProyectos" src="assets/img/meetcoffee.png" alt="">
+                <h6 class="text-start">Meet Coffee</h6>
+                </div>
+            </div>
+          </div>
+    </section>
+    <section class="Contacto mt-5" id="Contacto">
+        <div class="container align-items-start">
+            <h1 class="text-center">Contáctame</h1>
+            <div class="row mt-5">
+              <div class="col-md-8 col-sm-12">
+                <div class="form-group row">
+                    <div class="col-md-6 col-sm-6">
+                      <label for="input1" aria-required="true"></label>
+                      <input type="text" class="form-control " id="input1" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <label for="input2" aria-required="true"></label>
+                      <input type="text" class="form-control" id="input2" placeholder="Apellido" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" aria-required="true"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Tu Email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label" aria-required="true"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3" required></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button id="btn1" class="botonForm">Enviar</button>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="container align-items-start">
+                    <div class="row g-3 row-cols-1">
+                      <div class="col">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+56999887766</span>
+                      </div>
+                      <div class="col">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>tuemail@gmail.com</span>
+                      </div>
+                      <div class="col">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>tulinkdin</span>
+                      </div>
+                      <div class="col">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Tu Github</span>
+                      </div>
+                      <div class="col">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Tu instagram</span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/abccb90238.js" crossorigin="anonymous"></script>
+    <script type="module" src="assets/js/logisc.js"></script>
+</body>
+</html>

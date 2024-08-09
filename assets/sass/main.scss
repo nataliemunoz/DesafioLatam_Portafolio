@@ -1,0 +1,28 @@
+// Sección Abstacts
+@import'abstracts/mixins';
+@import'abstracts/variables';
+
+// Sección Base
+@import'base/reset';
+@import'base/tipography';
+
+// Sección Components
+@import'components/buttons';
+@import'components/form';
+@import'components/navigation';
+
+// Sección Layout
+@import 'layout/contacto';
+@import 'layout/principlal';
+@import 'layout/MHabilidades';
+
+
+// Seccción Pages
+@import'pages/index';
+
+// Sección Themes
+@import'theme/sizesImg';
+
+// Sección Vendors
+@import'vendors/boostrap';
+@import'vendors/googleFonts';
